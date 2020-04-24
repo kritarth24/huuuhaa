@@ -1,0 +1,78 @@
+p.axc
+{
+  margin-top: 3vh;
+  margin-left: 3vw;
+  font-size: 75px;
+  color:rgb(2, 23, 37, 0.96);
+}
+p.abc
+{
+  margin-top: 2vh;
+  margin-left:3vw;
+  font-size: 20px;
+  padding-right: 0vw;
+}
+div.all
+{
+  width:70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}
+div.trial
+{
+  background-color: pink;
+  height: 152px;
+}
+div.countries
+{
+  display: grid;
+  grid-template-columns:auto auto;
+  grid-row-gap: 2vh;
+}
+div.case
+{
+  position: relative;
+  transition:transform 3s;
+}
+div.huh
+{
+  width: 665px;
+  height: 500px;
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  top:0;
+}
+div.case:hover
+{
+  transform: rotate(360deg);
+}
+div.huh:hover
+{
+opacity: 0.5;
+}
+div.casename p
+{
+  font-size: 50px;
+  font-weight: 800;
+  color:red;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+}
+div.casestudy a
+{
+  display:block;
+  cursor:auto;
+  border:5px solid green;
+  padding: 10px;
+  color:white;
+  font-size: 45px;
+  position: absolute;
+  top:50%;
+  left: 25%;
+}
